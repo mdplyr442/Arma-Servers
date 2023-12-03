@@ -1,0 +1,43 @@
+# Define the path to the secrets file
+$secretsFilePath = Join-Path -Path $PSScriptRoot -ChildPath "secrets.txt"
+# print secrets file path
+Write-Host "Secrets file path: $secretsFilePath"
+# Initialize an empty hashtable to store the secrets
+$secrets = @{}
+
+# Read the secrets from the file
+Get-Content -Path $secretsFilePath | ForEach-Object {
+    # Split each line into key and value
+    $key, $value = $_ -split '=', 2
+    # Store the key-value pair in the hashtable
+    $secrets[$key] = $value
+}
+
+# Define the variables
+$STEAMLOGIN = $secrets["username"], $secrets["password"]
+$STEAMPATH = Join-Path -Path $PSScriptRoot -ChildPath "SteamCMD\steamcmd.exe"
+# print steam path
+Write-Host "Steam path: $STEAMPATH"
+$A3serverBRANCH = "233780 -beta"
+$A3serverBRANCH_PROF = "233780 -beta profiling"
+# get path of server_main folder
+$MainServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_main"
+$TrainingServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_training"
+$MainHCServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_main_hc"
+$TestServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_test"
+$SpecialServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_special"
+
+$UsePROF = Read-Host "Use profiling branch? (y/n) Enter for default (y)"
+if ($UsePROF -eq "y" -or $UsePROF -eq "") {
+    $A3serverBRANCH = $A3serverBRANCH_PROF
+}
+
+# Run the steamcmd commands
+& "$STEAMPATH" +force_install_dir $MainServerPath +login $STEAMLOGIN  +"app_update $A3serverBRANCH" validate +quit
+& "$STEAMPATH" +force_install_dir $TrainingServerPath +login $STEAMLOGIN  +"app_update $A3serverBRANCH" validate +quit
+& "$STEAMPATH" +force_install_dir $MainHCServerPath +login $STEAMLOGIN  +"app_update $A3serverBRANCH" validate +quit
+& "$STEAMPATH" +force_install_dir $TestServerPath +login $STEAMLOGIN  +"app_update $A3serverBRANCH" validate +quit
+& "$STEAMPATH" +force_install_dir $SpecialServerPath +login $STEAMLOGIN  +"app_update $A3serverBRANCH" validate +quit
+
+# Exit the script
+exit
