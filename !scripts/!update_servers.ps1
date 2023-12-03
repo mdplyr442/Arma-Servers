@@ -1,11 +1,6 @@
-# Define the path to the secrets file
+# Get secrets from file in key-value pairs
 $secretsFilePath = Join-Path -Path $PSScriptRoot -ChildPath "secrets.txt"
-# print secrets file path
-Write-Host "Secrets file path: $secretsFilePath"
-# Initialize an empty hashtable to store the secrets
 $secrets = @{}
-
-# Read the secrets from the file
 Get-Content -Path $secretsFilePath | ForEach-Object {
     # Split each line into key and value
     $key, $value = $_ -split '=', 2
@@ -14,10 +9,8 @@ Get-Content -Path $secretsFilePath | ForEach-Object {
 }
 
 # Define the variables
-$STEAMLOGIN = $secrets["username"], $secrets["password"]
+$STEAMLOGIN = $secrets["STEAM_USERNAME"], $secrets["STEAM_PASSWORD"]
 $STEAMPATH = Join-Path -Path $PSScriptRoot -ChildPath "SteamCMD\steamcmd.exe"
-# print steam path
-Write-Host "Steam path: $STEAMPATH"
 $A3serverBRANCH = "233780 -beta"
 $A3serverBRANCH_PROF = "233780 -beta profiling"
 # get path of server_main folder
