@@ -1,7 +1,19 @@
-$mods = (Get-ChildItem -Path F:\16AA\modpacks\main -Directory -Filter "*@*"  | Select-Object -expand fullname) -join ';'
+#Generic
+$ModpackPath = Join-Path -Path $PSScriptRoot -ChildPath "..\modpacks\main"
+$NetworkConfigPath = Join-Path -Path $PSScriptRoot -ChildPath "..\configs\network.cfg"
+$OcapPath = Join-Path -Path $PSScriptRoot -ChildPath "..\servermods\@OCAP"
+$ProfilerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\servermods\@ArmaScriptProfiler"
+$InterceptPath = Join-Path -Path $PSScriptRoot -ChildPath "..\servermods\@InterceptMinimalDev"
+#Specific
+$Port = 2402
+$ProfilesPath = Join-Path -Path $PSScriptRoot -ChildPath "..\logs_training"
+$ConfigPath = Join-Path -Path $PSScriptRoot -ChildPath "..\configs\training.cfg"
+$ExePath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_training\arma3serverprofiling_x64.exe"
 
-$arguments = "-config=F:\16AA\configs\training.cfg -cfg=F:\16AA\configs\network.cfg -profiles=F:\16AA\logs_training -port=2402 -name=16aa -hugepages -maxMem=16000 -malloc=mimalloc_v206_LockPages -enableHT -bandwidthAlg=2 -limitFPS=1000 -loadMissionToMemory -servermod=F:\16AA\OCAP\@ocap_fixugl_01b -mod=$mods"
+$Mods = (Get-ChildItem -Path $ModpackPath -Directory -Filter "*@*"  | Select-Object -expand fullname) -join ';'
 
-echo "args:" + $arguments
+$Arguments = "-config=$ConfigPath -cfg=$NetworkConfigPath -profiles=$ProfilesPath -port=$Port -name=16aa -hugepages -maxMem=16000 -malloc=mimalloc_v206_LockPages -enableHT -bandwidthAlg=2 -limitFPS=1000 -loadMissionToMemory -servermod=$OcapPath -mod=$Mods"
 
-Start-Process -FilePath "F:\16AA\server_training\arma3serverprofiling_x64.exe"  -ArgumentList $arguments
+echo "args:" + $Arguments
+
+Start-Process -FilePath "$ExePath"  -ArgumentList $Arguments
