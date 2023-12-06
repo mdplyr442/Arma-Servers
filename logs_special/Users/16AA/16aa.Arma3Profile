@@ -1,0 +1,83 @@
+class DifficultyPresets
+{
+	class CustomDifficulty
+	{
+		class Options
+		{
+			reducedDamage=0;
+			groupIndicators=0;
+			friendlyTags=0;
+			enemyTags=0;
+			detectedMines=0;
+			commands=0;
+			waypoints=0;
+			tacticalPing=0;
+			weaponInfo=1;
+			stanceIndicator=1;
+			staminaBar=0;
+			weaponCrosshair=0;
+			visionAid=0;
+			thirdPersonView=2;
+			cameraShake=0;
+			scoreTable=0;
+			deathMessages=0;
+			vonID=0;
+			mapContentFriendly=0;
+			mapContentEnemy=0;
+			mapContentMines=0;
+			autoReport=0;
+			multipleSaves=0;
+		};
+		aiLevelPreset=3;
+	};
+	class CustomAILevel
+	{
+		skillAI=1;
+		precisionAI=0.25;
+	};
+};
+singleVoice=0;
+playedKeys[]=
+{
+	"BIS_Showcase_FiringFromVehicles.Altis_done"
+};
+activeKeys[]=
+{
+	"BIS_[16AA-OP]PGD_6_v3-26MAR2023.chongo_done",
+	"BIS_[16AA-OP]PGD7_v6-02APR2023.juju_kalahari_done",
+	"BIS_[16AA-OP]PGD8_v3-09APR2023.juju_kalahari_done",
+	"BIS_[16AA-OP]Interceptor_II_V2.pja310_done",
+	"BIS_[16AA-OP]Interceptor_III_V1.pja310_done",
+	"BIS_[16AA-OP]Interceptor_IV_V1.pja310_done",
+	"BIS_[16AA-OP]Interceptor_V_V2.pja310_done",
+	"BIS_[16AA-OP]Interceptor_VII_V2.pja310_done",
+	"BIS_[16AA-OP]Interceptor_IX.pja310_done",
+	"BIS_[ITC]HR_III_CALFEX_RED_SNAPPER_V3.cfb_moosehead_done",
+	"BIS_[16AA-OP]AT_1_v1-06JUL2023.fapovo_done",
+	"BIS_[16AA-OP]AT_2_v4-01AUG2023.fapovo_done",
+	"BIS_[16AA-OP]AT_3_v1-12AUG2023.fapovo_done",
+	"BIS_[16AA-OP]AT_4_v3-14AUG2023.fapovo_done",
+	"BIS_[16AA-OP]AT_6_v2-28AUG2023.fapovo_done",
+	"BIS_[16AA-OP]AT_7_v2-04SEP2023.fapovo_done",
+	"BIS_[16AA-OP]AT_8_v1-17SEP2023.fapovo_done",
+	"BIS_[16AA-OPR]Bearclaw_I_v2.brf_sumava_done",
+	"BIS_[16AA-OPR]Bearclaw_II.brf_sumava_done",
+	"BIS_[16AA-OPR]Bearclaw_III.brf_sumava_done",
+	"BIS_[16AA-OPR]Bearclaw_IV.brf_sumava_done",
+	"BIS_[16AA-OPR]Bearclaw_V.brf_sumava_done",
+	"BIS_[16AA-OPR]Bearclaw_VI_v2.brf_sumava_done",
+	"BIS_[16AA-OPR]Bearclaw_VII.brf_sumava_done"
+};
+sceneComplexity=400000;
+shadowZDistance=100;
+viewDistance=1000;
+preferredObjectViewDistance=800;
+pipViewDistance=500;
+terrainGrid=25;
+volumeCD=10;
+volumeFX=10;
+volumeSpeech=10;
+volumeVoN=10;
+vonRecThreshold=0.029999999;
+volumeMapDucking=1;
+volumeUI=1;
