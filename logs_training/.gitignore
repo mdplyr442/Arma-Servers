@@ -1,0 +1,7 @@
+/*
+!.gitignore
+!Users/
+Users/*
+!Users/16AA/
+Users/16AA/*
+!Users/16AA/16aa.Arma3Profile

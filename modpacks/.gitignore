@@ -1,0 +1,4 @@
+/main/*
+!/main/.gitkeep
+/special/*
+!/special/.gitkeep

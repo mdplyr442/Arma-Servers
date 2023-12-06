@@ -1,0 +1,8 @@
+/*
+!.gitignore
+!hc1/
+hc1/*
+!hc1/.gitkeep
+!hc2/
+hc2/*
+!hc2/.gitkeep
