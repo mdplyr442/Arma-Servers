@@ -3,6 +3,7 @@
 !userconfig/
 userconfig/*
 !userconfig/cba_settings.sqf
+!userconfig/mypass.hpp.sample
 !dll/
 dll/*
 !dll/mimalloc-v206-lock-pages.dll
