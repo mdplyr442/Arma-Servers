@@ -17,7 +17,7 @@ $A3serverBRANCH_PROF = "233780 -beta profiling"
 $MainServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_main"
 $TrainingServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_training"
 $MainHCServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_main_hc"
-$TestServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_test"
+$TestServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_testing"
 $SpecialServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_special"
 
 $UsePROF = Read-Host "Use profiling branch? (y/n) Enter for default (y)"
