@@ -1,14 +1,15 @@
 #Generic
-$ModpackPath = Join-Path -Path $PSScriptRoot -ChildPath "..\modpacks\main"
-$NetworkConfigPath = Join-Path -Path $PSScriptRoot -ChildPath "..\configs\network.cfg"
-$OcapPath = Join-Path -Path $PSScriptRoot -ChildPath "..\servermods\@OCAP"
-$ProfilerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\servermods\@ArmaScriptProfiler"
-$InterceptPath = Join-Path -Path $PSScriptRoot -ChildPath "..\servermods\@InterceptMinimalDev"
+$ParentPath = Split-Path -Path $PSScriptRoot -Parent
+$ModpackPath = Join-Path -Path $ParentPath -ChildPath "modpacks\main"
+$NetworkConfigPath = Join-Path -Path $ParentPath -ChildPath "configs\network.cfg"
+$OcapPath = Join-Path -Path $ParentPath -ChildPath "servermods\@OCAP"
+$ProfilerPath = Join-Path -Path $ParentPath -ChildPath "servermods\@ArmaScriptProfiler"
+$InterceptPath = Join-Path -Path $ParentPath -ChildPath "servermods\@InterceptMinimalDev"
 #Specific
 $Port = 2402
-$ProfilesPath = Join-Path -Path $PSScriptRoot -ChildPath "..\logs_training"
-$ConfigPath = Join-Path -Path $PSScriptRoot -ChildPath "..\configs\training.cfg"
-$ExePath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_training\arma3serverprofiling_x64.exe"
+$ProfilesPath = Join-Path -Path $ParentPath -ChildPath "logs_training"
+$ConfigPath = Join-Path -Path $ParentPath -ChildPath "configs\training.cfg"
+$ExePath = Join-Path -Path $ParentPath -ChildPath "server_training\arma3serverprofiling_x64.exe"
 
 $Mods = (Get-ChildItem -Path $ModpackPath -Directory -Filter "*@*"  | Select-Object -expand fullname) -join ';'
 
