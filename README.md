@@ -8,6 +8,7 @@ Contains all Arma 3 servers the 16AA regularly uses.
 # What to change
 `!scripts\secrets.txt.sample` - rename to `secrets.txt` and change accordingly.  
 `configs\passwords.hpp.sample` - rename to `passwords.hpp` and change accordingly. `password` needs to match `ARMA_CONNECT_PASSWORD` in `!scripts\secrets.txt`!  
+`configs\passwords_training.hpp.sample` - rename to `passwords_training.hpp` and change accordingly. `password` needs to match `ARMA_CONNECT_PASSWORD` in `!scripts\secrets.txt`!  
 `configs\passwords_testing.hpp.sample` - rename to `passwords.hpp` and change accordingly.  
 `server_main\userconfig\mypass.hpp.sample` - rename to `mypass.hpp`, needs to match the `serverCommandPassword` in `passwords.hpp`!  
 `server_training\userconfig\mypass.hpp.sample` - rename to `mypass.hpp`, needs to match the `serverCommandPassword` in `passwords.hpp`!  
