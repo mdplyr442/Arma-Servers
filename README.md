@@ -31,8 +31,8 @@ Contains all Arma 3 servers the 16AA regularly uses.
 `logs_testing\Users\16AA\16aa.Arma3Profile` contains the `CustomDifficulty` settings for the **testing** server.  
 `logs_special\Users\16AA\16aa.Arma3Profile` contains the `CustomDifficulty` settings for the **special** server.  
 ### CBA Settings
-These are configured in the servers respective `cba_settings.sqf` file and can't be changed without a server restart.
-`server_main\userconfig\cba_settings.sqf` - contains the CBA settings for **main** server.
+These are configured in the servers respective `cba_settings.sqf` file and can't be changed without a server restart.  
+`server_main\userconfig\cba_settings.sqf` - contains the CBA settings for **main** server.  
 `server_training\userconfig\cba_settings.sqf` - contains the CBA settings for the **training** server.  
 `server_testing\userconfig\cba_settings.sqf` - contains the CBA settings for the **testing** server.  
 `server_special\userconfig\cba_settings.sqf` - contains the CBA settings for the **special** server.  
