@@ -5,6 +5,7 @@ requiredBuild  = 133741;			// From 1.60 Patchlog: requiredBuild=xxxxx; in server
 forceRotorLibSimulation = 0;		// Enforces the Advanced Flight Model on the server. Default = 0 (up to the player). 1 - forced AFM, 2 - forced SFM.
 forcedDifficulty = "Custom";        // Force difficulty
 steamProtocolMaxDataSize = 10000;   // Max size of data sent to steam. Default 10000. Increase if you have a lot of mods and are getting steam errors.
+missionsToServerRestart = 1;        // Restart the server after every mission
 
 // VOICE CHAT
 disableVoN       = 1;   // If set to 1, voice chat will be disabled
