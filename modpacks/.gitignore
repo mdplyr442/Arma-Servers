@@ -1,4 +1,6 @@
 /main/*
 !/main/.gitkeep
+/main_test/*
+!/main_test/.gitkeep
 /special/*
 !/special/.gitkeep
