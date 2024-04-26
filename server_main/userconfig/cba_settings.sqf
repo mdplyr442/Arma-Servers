@@ -981,7 +981,7 @@ force force acre_sys_zeus_zeusCommunicateViaCamera = true;
 force force acre_sys_zeus_zeusDefaultVoiceSource = false;
 
 // ArmaForces - Remote Sensors
-force l6AA_remotesensors_enabled = true;
+l6AA_remotesensors_enabled = true;
 
 // Backpack On Chest
 force bocr_main_disabled = false;
@@ -1519,6 +1519,27 @@ force force L_Suppress_recovery = 3;
 mts_markers_displayShortDTG = true;
 mts_markers_saveLastSelection = false;
 mts_markers_useVanillaColors = false;
+
+// OCAP - Main
+force force OCAP_administratorList = "[]";
+force force OCAP_enabled = true;
+force force OCAP_isDebug = false;
+
+// OCAP - Recorder
+force force OCAP_settings_autoStart = true;
+force force OCAP_settings_excludeClassFromRecord = "['ACE_friesAnchorBar', 'GroundWeaponHolder', 'WeaponHolderSimulated']";
+force force OCAP_settings_excludeKindFromRecord = "['WeaponHolder']";
+force force OCAP_settings_excludeMarkerFromRecord = "['SystemMarker_','ACE_BFT_','fpsmarker']";
+force force OCAP_settings_frameCaptureDelay = 1;
+force force OCAP_settings_minMissionTime = 20;
+force force OCAP_settings_minPlayerCount = 10;
+force force OCAP_settings_preferACEUnconscious = true;
+force force OCAP_settings_saveMissionEnded = true;
+force force OCAP_settings_saveOnEmpty = true;
+force force OCAP_settings_saveTag = "OP";
+force force OCAP_settings_trackTickets = true;
+force force OCAP_settings_trackTimeInterval = 15;
+force force OCAP_settings_trackTimes = true;
 
 // Turret Enhanced
 Fat_Lurch_Grid = true;
