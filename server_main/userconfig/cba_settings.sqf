@@ -39,10 +39,10 @@ force force ace_advanced_ballistics_simulationInterval = 0.2;
 force force ace_advanced_fatigue_enabled = true;
 force force ace_advanced_fatigue_enableStaminaBar = true;
 force force ace_advanced_fatigue_fadeStaminaBar = true;
-force force ace_advanced_fatigue_loadFactor = 1;
+force force ace_advanced_fatigue_loadFactor = 0;
 force force ace_advanced_fatigue_performanceFactor = 2.5396;
-force force ace_advanced_fatigue_recoveryFactor = 3;
-force force ace_advanced_fatigue_terrainGradientFactor = 1;
+force force ace_advanced_fatigue_recoveryFactor = 4.5;
+force force ace_advanced_fatigue_terrainGradientFactor = 0;
 ;
 
 // ACE Advanced Throwing
