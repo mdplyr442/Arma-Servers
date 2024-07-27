@@ -19,6 +19,8 @@ $TrainingServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_traini
 $MainHCServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_main_hc"
 $TestServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_testing"
 $SpecialServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_special"
+$LSRTestingServerPath = Join-Path -Path $PSScriptRoot -ChildPath "..\server_lsr_testing"
+
 
 $UsePROF = Read-Host "Use profiling branch? (y/n) Enter for default (y)"
 if ($UsePROF -eq "y" -or $UsePROF -eq "") {
@@ -31,6 +33,7 @@ if ($UsePROF -eq "y" -or $UsePROF -eq "") {
 & "$STEAMPATH" +force_install_dir $MainHCServerPath +login $STEAMLOGIN  +"app_update $A3serverBRANCH" validate +quit
 & "$STEAMPATH" +force_install_dir $TestServerPath +login $STEAMLOGIN  +"app_update $A3serverBRANCH" validate +quit
 & "$STEAMPATH" +force_install_dir $SpecialServerPath +login $STEAMLOGIN  +"app_update $A3serverBRANCH" validate +quit
+& "$STEAMPATH" +force_install_dir $LSRTestingServerPath +login $STEAMLOGIN  +"app_update $A3serverBRANCH" validate +quit
 
 # Exit the script
 exit
