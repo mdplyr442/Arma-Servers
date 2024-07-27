@@ -6,3 +6,5 @@
 !/main_test/.gitkeep
 /special/*
 !/special/.gitkeep
+/testing/*
+!/testing/.gitkeep

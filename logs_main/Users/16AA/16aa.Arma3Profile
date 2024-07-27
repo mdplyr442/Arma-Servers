@@ -67,7 +67,14 @@ activeKeys[]=
 	"BIS_[16AA-OPR]Bearclaw_V.brf_sumava_done",
 	"BIS_[16AA-OPR]Bearclaw_VI_v2.brf_sumava_done",
 	"BIS_[16AA-OPR]Bearclaw_VII.brf_sumava_done",
-	"BIS_[16AA-OPR]Bearclaw_VIII.brf_sumava_done"
+	"BIS_[16AA-OPR]Bearclaw_VIII.brf_sumava_done",
+	"BIS_[16-OPR]DustDevil2V3_alt.tem_kujari_done",
+	"BIS_[16-OPR]DustDevil3V2.tem_kujari_done",
+	"BIS_[16-OPR]DustDevil5V2.tem_kujari_done",
+	"BIS_[16-OPR]DustDevil6V2.tem_kujari_done",
+	"BIS_[16-OPR]DustDevil7V1.tem_kujari_done",
+	"BIS_[16-OPR]DustDevil8V2.tem_kujari_done",
+	"BIS_[16-OPR]DustDevil9V3.tem_kujari_done"
 };
 sceneComplexity=400000;
 shadowZDistance=100;
