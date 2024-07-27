@@ -9,7 +9,7 @@ $InterceptPath = Join-Path -Path $ParentPath -ChildPath "servermods\@InterceptMi
 #Specific
 $Port = 2402
 $ProfilesPath = Join-Path -Path $ParentPath -ChildPath "logs_training"
-$ConfigPath = Join-Path -Path $ParentPath -ChildPath "configs\training.cfg"
+$ConfigPath = Join-Path -Path $ParentPath -ChildPath "configs\training_camp_pegasus.cfg"
 $MpMissionsPath = Join-Path -Path $ParentPath -ChildPath "server_training\mpmissions"
 $ExePath = Join-Path -Path $ParentPath -ChildPath "server_training\arma3serverprofiling_x64.exe"
 
