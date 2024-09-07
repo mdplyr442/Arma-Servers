@@ -74,7 +74,10 @@ activeKeys[]=
 	"BIS_[16-OPR]DustDevil6V2.tem_kujari_done",
 	"BIS_[16-OPR]DustDevil7V1.tem_kujari_done",
 	"BIS_[16-OPR]DustDevil8V2.tem_kujari_done",
-	"BIS_[16-OPR]DustDevil9V3.tem_kujari_done"
+	"BIS_[16-OPR]DustDevil9V3.tem_kujari_done",
+	"BIS_[16AA-OPR]HeavensThunder_I.VTF_Korsac_done",
+	"BIS_[16AA-OPR]HeavensThunder_II.VTF_Korsac_done",
+	"BIS_[16AA-OPR]HeavensThunder_III_V4.chernarus_done"
 };
 sceneComplexity=400000;
 shadowZDistance=100;
