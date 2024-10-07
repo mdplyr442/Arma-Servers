@@ -80,7 +80,8 @@ activeKeys[]=
 	"BIS_[16AA-OPR]HeavensThunder_III_V4.chernarus_done",
 	"BIS_[16AA-OPR]HeavensThunder_IV_v2.chernarus_done",
 	"BIS_[16AA-OPR]HeavensThunder_VI.brf_sumava_done",
-	"BIS_[16AA-OPR]HeavensThunder_VII.brf_sumava_done"
+	"BIS_[16AA-OPR]HeavensThunder_VII.brf_sumava_done",
+	"BIS_[16AA-OPR]HeavensThunder_VIII.brf_sumava_done"
 };
 sceneComplexity=400000;
 shadowZDistance=100;
