@@ -1334,7 +1334,7 @@ kat_gui_showPatientSideLabels = true;
 
 // KAT - ADV Medical: Misc
 kat_misc_AFAK_Container = 3;
-force force kat_misc_AFAK_RemoveWhenEmpty = false;
+force force kat_misc_AFAK_RemoveWhenEmpty = true;
 force force kat_misc_AFAKFifthSlotItem = "[['kat_guedel', 3]]";
 force force kat_misc_AFAKFirstSlotItem = "[['kat_larynx', 10], ['kat_pocketBVM', 1], ['kat_pulseoximeter', 5], ['kat_naloxone', 10], ['kat_stethoscope', 1]]";
 force force kat_misc_AFAKFourthSlotItem = "[['kat_chestSeal', 4], ['kat_ncdKit', 4]]";
@@ -1352,11 +1352,12 @@ kat_misc_armbandSlingRightLeg = "-0.32, -0.29, -0.42";
 kat_misc_armbandSlingRightLegRotation = "-30, -5, 38";
 force force kat_misc_enable = true;
 kat_misc_IFAK_Container = 0;
-force force kat_misc_IFAK_RemoveWhenEmpty = false;
-force force kat_misc_IFAKFirstSlotItem = "[['ACE_tourniquet', 2]]";
+force force kat_misc_IFAK_RemoveWhenEmpty = true;
+kat_misc_IFAK_Slot_Color = [1,0.3,0.3];
+force force kat_misc_IFAKFirstSlotItem = "[['ACE_tourniquet', 2], ['kat_phenylephrineAuto', 1]]";
 force force kat_misc_IFAKFourthSlotItem = "[['kat_chestSeal', 1], ['kat_guedel', 1]]";
-force force kat_misc_IFAKSecondSlotItem = "[['ACE_packingBandage', 15]]";
-force force kat_misc_IFAKThirdSlotItem = "[['kat_Painkiller', 1]]";
+force force kat_misc_IFAKSecondSlotItem = "[['ACE_packingBandage', 5], ['ACE_fieldDressing', 5]]";
+force force kat_misc_IFAKThirdSlotItem = "[['ACE_morphine', 1], ['kat_Painkiller', 1]]";
 force force kat_misc_incompatibilityWarning = true;
 kat_misc_MFAK_Container = 0;
 force force kat_misc_MFAK_RemoveWhenEmpty = true;
