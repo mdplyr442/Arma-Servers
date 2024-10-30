@@ -39,7 +39,8 @@ class DifficultyPresets
 singleVoice=0;
 playedKeys[]=
 {
-	"BIS_Showcase_FiringFromVehicles.Altis_done"
+	"BIS_Showcase_FiringFromVehicles.Altis_done",
+	"BIS_coop_01.cam_lao_nam_done"
 };
 activeKeys[]=
 {
@@ -81,7 +82,10 @@ activeKeys[]=
 	"BIS_[16AA-OPR]HeavensThunder_IV_v2.chernarus_done",
 	"BIS_[16AA-OPR]HeavensThunder_VI.brf_sumava_done",
 	"BIS_[16AA-OPR]HeavensThunder_VII.brf_sumava_done",
-	"BIS_[16AA-OPR]HeavensThunder_VIII.brf_sumava_done"
+	"BIS_[16AA-OPR]HeavensThunder_VIII.brf_sumava_done",
+	"BIS_[16AA-OPR]HeavensThunder_IX.brf_sumava_done",
+	"BIS_[16AA-OPR]HeavensThunder_Xv2.brf_sumava_done",
+	"BIS_[16AA-OPR]HeavensThunder_XI.brf_sumava_done"
 };
 sceneComplexity=400000;
 shadowZDistance=100;
