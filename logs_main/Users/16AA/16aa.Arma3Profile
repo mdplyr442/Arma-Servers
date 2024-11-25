@@ -40,7 +40,14 @@ singleVoice=0;
 playedKeys[]=
 {
 	"BIS_Showcase_FiringFromVehicles.Altis_done",
-	"BIS_coop_01.cam_lao_nam_done"
+	"BIS_coop_01.cam_lao_nam_done",
+	"BIS_EXP_m02.Tanoa_done",
+	"BIS_EXP_m03.Tanoa_done",
+	"BIS_EXP_m04.Tanoa_done",
+	"BIS_EXP_m05.Tanoa_done",
+	"BIS_EXP_m06.Tanoa_done",
+	"BIS_EXP_m07.Tanoa_done",
+	"BIS_coop_02.cam_lao_nam_done"
 };
 activeKeys[]=
 {
@@ -85,7 +92,17 @@ activeKeys[]=
 	"BIS_[16AA-OPR]HeavensThunder_VIII.brf_sumava_done",
 	"BIS_[16AA-OPR]HeavensThunder_IX.brf_sumava_done",
 	"BIS_[16AA-OPR]HeavensThunder_Xv2.brf_sumava_done",
-	"BIS_[16AA-OPR]HeavensThunder_XI.brf_sumava_done"
+	"BIS_[16AA-OPR]HeavensThunder_XI.brf_sumava_done",
+	"BIS_[16AA-OPR]Freebird_HRI.Tanoa_done",
+	"BIS_exp_m02.tanoa_done",
+	"BIS_exp_m03.tanoa_done",
+	"BIS_exp_m04.tanoa_done",
+	"BIS_exp_m05.tanoa_done",
+	"BIS_exp_m06.tanoa_done",
+	"BIS_coop_02.cam_lao_nam_done",
+	"BIS_[16AA-OPR]Freebird_HRII.Tanoa_done",
+	"BIS_[16AA-OPR]Freebird_HRIII.Tanoa_done",
+	"BIS_[16AA-OPR]Freebird_I.Cam_Lao_Nam_done"
 };
 sceneComplexity=400000;
 shadowZDistance=100;
