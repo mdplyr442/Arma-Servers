@@ -104,7 +104,11 @@ activeKeys[]=
 	"BIS_[16AA-OPR]Freebird_HRIII.Tanoa_done",
 	"BIS_[16AA-OPR]Freebird_I.Cam_Lao_Nam_done",
 	"BIS_[16AA-OPR]Freebird_II.Cam_Lao_Nam_done",
-	"BIS_[16AA-OPR]Freebird_IIIv2.Cam_Lao_Nam_done"
+	"BIS_[16AA-OPR]Freebird_IIIv2.Cam_Lao_Nam_done",
+	"BIS_[16AA-OPR]Freebird_IV.Cam_Lao_Nam_done",
+	"BIS_[16AA-OPR]Freebird_V.Cam_Lao_Nam_done",
+	"BIS_[16AA-OPR]Freebird_VI.Cam_Lao_Nam_done",
+	"BIS_[16AA-OPR]Freebird_VII.Cam_Lao_Nam_done"
 };
 sceneComplexity=400000;
 shadowZDistance=100;
