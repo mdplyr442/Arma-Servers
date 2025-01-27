@@ -118,8 +118,8 @@ ace_common_progressBarInfo = 2;
 ace_common_settingFeedbackIcons = 1;
 ace_common_settingProgressBarLocation = 0;
 force force ace_common_enableSway = true;
-force force ace_common_swayFactor = 1;
-force force ace_common_restedSwayFactor = 0.602616;
+force force ace_common_swayFactor = 0.5;
+force force ace_common_restedSwayFactor = 0.37;
 force force ace_common_deployedSwayFactor = 0.279786;
 
 // ACE Cook off
@@ -609,7 +609,7 @@ force force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 1;
 force force ace_medical_painUnconsciousChance = 0.1;
 force force ace_medical_painUnconsciousThreshold = 0.5;
-force force ace_medical_playerDamageThreshold = 1;
+force force ace_medical_playerDamageThreshold = 4;
 force force ace_medical_spontaneousWakeUpChance = 0.142045;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 1;
 force force ace_medical_statemachine_AIUnconsciousness = true;

@@ -118,8 +118,8 @@ ace_common_progressBarInfo = 2;
 ace_common_settingFeedbackIcons = 1;
 ace_common_settingProgressBarLocation = 0;
 force force ace_common_enableSway = true;
-force force ace_common_swayFactor = 1;
-force force ace_common_restedSwayFactor = 0.602616;
+force force ace_common_swayFactor = 0.5;
+force force ace_common_restedSwayFactor = 0.37;
 force force ace_common_deployedSwayFactor = 0.279786;
 
 // ACE Cook off
