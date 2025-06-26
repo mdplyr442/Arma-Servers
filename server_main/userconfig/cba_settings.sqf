@@ -813,6 +813,7 @@ force force ace_scopes_deduceBarometricPressureFromTerrainAltitude = true;
 force force ace_scopes_defaultZeroRange = 100;
 force force ace_scopes_enabled = true;
 force force ace_scopes_forceUseOfAdjustmentTurrets = true;
+force force ace_scopes_inScopeAdjustment = true;
 force force ace_scopes_overwriteZeroRange = true;
 force force ace_scopes_simplifiedZeroing = false;
 force force ace_scopes_useLegacyUI = false;
